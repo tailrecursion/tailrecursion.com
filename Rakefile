@@ -7,7 +7,7 @@ require "stringex"
 ssh_user       = "alan@tailrecursion.com"
 ssh_port       = "22"
 document_root  = "/var/www/domains/tailrecursion.com"
-rsync_delete   = false
+rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
 
