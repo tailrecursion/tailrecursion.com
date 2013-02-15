@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing Javelin: an FRP library for ClojureScript"
 date: 2013-02-15 09:00
-comments: false
+comments: true
 categories: [javelin, clojure, clojurescript, FRP]
 authors: [alan, micha]
 ---
