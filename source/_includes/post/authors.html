@@ -1,0 +1,6 @@
+{% capture authors %}{% if post %}{{ post.authors | author_links | size }}{% else %}{{ page.authors | author_links | size }}{% endif %}{% endcapture %}
+{% if post %}
+	{{ post.authors | author_links }}
+{% else %}
+	{{ page.authors | author_links }}
+{% endif %}

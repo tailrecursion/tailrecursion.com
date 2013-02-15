@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://tailrecursion.com
+title: tailrecursion
+subtitle: Open source from the @freshdiet team
+author: tailrecursion
 simple_search: http://google.com/search
 description:
 
@@ -19,7 +19,27 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: alan+tailrecursion@dipert.org
+
+# ----------------------- #
+#         Authors         #
+# ----------------------- #
+
+authors:
+  alan:
+    display_name: Alan Dipert
+    gravatar: 742841c66e8905a2ace9798e4358fab9
+    email: alan@thefreshdiet.com
+    web: http://alan.dipert.org/
+    twitter: alandipert
+    github: alandipert
+  micha:
+    display_name: Micha Niskin
+    gravatar: 85e6db99731aaba43d6b7863970c43aa
+    email: micha@thefreshdiet.com
+    web: http://micha.github.com/
+    twitter: michaniskin
+    github: micha
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -58,7 +78,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: tailrecursion
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -68,8 +88,8 @@ twitter_user:
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
-twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_show_follower_count: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
