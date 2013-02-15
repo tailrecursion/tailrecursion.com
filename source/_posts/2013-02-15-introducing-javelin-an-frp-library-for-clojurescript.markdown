@@ -16,7 +16,7 @@ We are pleased to announce today the release of
 [ClojureScript](https://github.com/clojure/clojurescript).
 
 * [Javelin README](https://github.com/tailrecursion/javelin/blob/master/README.md) - short examples and operational overview
-* [tailrecursion/javelin-demos](https://github.com/tailrecursion/javelin-demos) - evolving set of more involved examples
+* [tailrecursion/javelin-demos](https://github.com/tailrecursion/javelin-demos) - growing collection of more involved examples
 * [see the demos running online](http://tailrecursion.com/~alan/javelin-demos/)
 
 Javelin takes a hybrid approach to FRP that draws inspiration from the
