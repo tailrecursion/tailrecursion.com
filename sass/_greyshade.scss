@@ -289,3 +289,30 @@ body {
 		}
 	}
 }
+
+@media print {
+  body {
+    padding: 50px 25px 75px 70px;
+    font-family: serif; }
+  h1, h2, h3 {
+    font-weight: bold;
+    font-family: sans-serif; }
+  h2 + p,
+  h3 + p {
+    page-break-before: avoid; }
+  .no-print {
+    display: none; }
+  a.author img {
+    display: none; }
+  .container {
+    .left-col {
+      display: none; }
+    .mid-col {
+      float: none;
+      width: 100%;
+      .mid-col-container {
+        #content {
+          article {
+            .meta {
+              float: none; } } } } } } }
+
