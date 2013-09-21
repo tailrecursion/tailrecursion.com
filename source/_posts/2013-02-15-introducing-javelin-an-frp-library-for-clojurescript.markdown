@@ -17,7 +17,7 @@ We are pleased to announce today the release of
 
 * [Javelin README](https://github.com/tailrecursion/javelin/blob/master/README.md) - short examples and operational overview
 * [tailrecursion/javelin-demos](https://github.com/tailrecursion/javelin-demos) - growing collection of more involved examples
-* [see the demos running online](http://tailrecursion.com/~alan/javelin-demos/)
+* [see the demos running online](https://dl.dropboxusercontent.com/u/12379861/javelin_demos/index.html)
 
 Javelin takes a hybrid approach to FRP that draws inspiration from the
 spreadsheet model, various existing FRP libraries and frameworks,
